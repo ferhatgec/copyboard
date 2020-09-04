@@ -73,8 +73,9 @@ int main(int argc, char **argv) {
 	   	Version();
            else
     		std::cout << "Undefined argument.";
-    }
+    } else 
+ 	Help(argv);
 
-    std::cout << "\n";
+    /* std::cout << "\n"; */
     return 0;
 }
